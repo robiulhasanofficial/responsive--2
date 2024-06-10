@@ -49,6 +49,13 @@ nav li>a{
 }
 .banner-tex{
 color: #727272;
+
+
+}
+.tex{
+    color: #727272;
+    width: 40%;
+ 
 }
 .banner-but{
     padding:10px 20px  ;
@@ -66,7 +73,8 @@ color: #727272;
 /* Main styel */
 main{
     max-width: 1440px;
-    margin: 70px  auto;
+    margin: 00 auto;
+    margin-top: 20px;
 }
 .tim{
     display: flex;
@@ -93,6 +101,81 @@ main{
     color: orange;
     font-weight: 700;
 }
+.card{
+    border: 5px solid orange;
+    text-align: center;
+    padding: 30px;
+}
+.tancard{
+    display: flex;
+    justify-content: space-around;
+}
+.ct{
+    font-size: 2.8rem;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cp{
+    font-weight: 600;
+    color: #727272;
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+.fat .nav-titel{
+    border-left: 5px solid orange;
+    padding-left: 20px;
+}
+.yer{
+    border-radius: 10px;
+    background-color: orange;
+    color: aliceblue;
+    width: 342px;
+    font-size: 4rem;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+.obab{
+    height: 90%;
+    margin-left: 50px;
+}
+.yer h3{
+    margin: 0px;
+}
+.yer p{
+    font-size: 1.5rem;
+}
+.papa{
+    text-align: center;
+}
+.papaimg{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.babacard{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: 0px 4px 30px 0px black;
+    margin-bottom: 20px;
+
+}
+.fat{
+    display: flex;
+    margin-top: 130px;
+    gap: 100px;
+}
+footer{
+    background-color: bisque;
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+    
+    margin: 100px auto;
+}
 /* mobile size styel */
 @media screen and (max-width:700px) {
     
@@ -100,10 +183,24 @@ main{
         padding: 0px;
     
 }
+.obab>img{
+    width: 90%;
+    margin-left: 0px;
+
+}
+.yer{
+    position: static;
+    width: 300px;
+}
 nav ,.tim{
     flex-direction: column;
 
 }
+.fat{
+    flex-direction: column;
+
+}
+
 .main-img{
     grid-template-columns: 1fr;
 }
@@ -111,26 +208,66 @@ nav ,.tim{
     padding: 10px ;
 
 }
+.tancard{
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.papaimg> img{
+    width: 150px;
+}
+.papaimg{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
 }
 /* teblet  */
 @media screen and (min-width:700px)and (max-width:1000px){
 
-nav{
-    flex-direction: column;
+    header{
+        padding: 0px;
+    
 }
-header{
-    padding: 20px;
+.obab>img{
+    width: 90%;
+    margin-left: 0px;
 
+}
+.yer{
+    position: static;
+    width: 300px;
 }
 nav ,.tim{
     flex-direction: column;
 
 }
-nav ,.tim{
+.fat{
     flex-direction: column;
 
 }
 
+.main-img{
+    grid-template-columns: 1fr;
+}
+.bannre-titel{
+    padding: 10px ;
+
+}
+.tancard{
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.papaimg> img{
+    width: 150px;
+}
+.papaimg{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+}
 
 }
 
