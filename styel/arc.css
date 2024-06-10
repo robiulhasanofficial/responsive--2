@@ -43,15 +43,15 @@ nav li>a{
 }
 .bannre-titel{
     font-size: 4rem;
-    font-weight: 700;
+    font-weight:700 ;
     color: black;
-    padding: 0px 120px;
+    padding: 0px 120px; 
 }
 .banner-tex{
 color: #727272;
 }
 .banner-but{
-    padding: 20px 25px;
+    padding:10px 20px  ;
     background-color: orange;
     border-radius: 10px;
     color: aliceblue;
@@ -66,9 +66,9 @@ color: #727272;
 /* Main styel */
 main{
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 70px  auto;
 }
-.timcontin{
+.tim{
     display: flex;
     align-items: center;
 }
@@ -77,9 +77,10 @@ main{
     grid-template-columns: repeat(2,1fr);
     gap:1.5rem;
 }
-.contaimainn{
+.cont{
     padding-left: 70px;
     padding-right:70px;
+
 }
 .mt{
     font-size: 2.8rem;
@@ -96,13 +97,20 @@ main{
 @media screen and (max-width:700px) {
     
     header{
-        padding:10 px;
+        padding: 0px;
     
 }
-nav{
+nav ,.tim{
     flex-direction: column;
-}
 
+}
+.main-img{
+    grid-template-columns: 1fr;
+}
+.bannre-titel{
+    padding: 10px ;
+
+}
 }
 /* teblet  */
 @media screen and (min-width:700px)and (max-width:1000px){
@@ -112,6 +120,14 @@ nav{
 }
 header{
     padding: 20px;
+
+}
+nav ,.tim{
+    flex-direction: column;
+
+}
+nav ,.tim{
+    flex-direction: column;
 
 }
 
