@@ -63,6 +63,35 @@ color: #727272;
     margin-top: 20px;
     width: 100%;
 }
+/* Main styel */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.timcontin{
+    display: flex;
+    align-items: center;
+}
+.main-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1.5rem;
+}
+.contaimainn{
+    padding-left: 70px;
+    padding-right:70px;
+}
+.mt{
+    font-size: 2.8rem;
+}
+.ma{
+    color: #727272;
+    font-weight: 500;
+}
+.mc{
+    color: orange;
+    font-weight: 700;
+}
 /* mobile size styel */
 @media screen and (max-width:700px) {
     
@@ -85,6 +114,8 @@ header{
     padding: 20px;
 
 }
+
+
 }
 
 
